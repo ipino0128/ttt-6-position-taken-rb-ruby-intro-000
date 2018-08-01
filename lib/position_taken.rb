@@ -1,5 +1,11 @@
 # code your #position_taken? method here!
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def position_taken?(board, index)
 
-board[1]
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+def position_taken?(board, index)
+  if board[index] == " "
+    false
+
+
+
+#board[1]
